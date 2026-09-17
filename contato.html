@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre o Tomorrowland</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="cadastro-topo">
+    <a href="index.html" class="logo">TOMORROWLAND</a>
+    <a href="index.html" class="voltar">← Voltar para o site</a>
+</header>
+
+
+    <main>
+
+        <section class="pagina-hero">
+            <h1>Mais sobre o Tomorrowland</h1>
+        </section>
+
+        <section class="pagina-conteudo">
+            <p class="label">O FESTIVAL</p>
+            <h2>Sobre o evento</h2>
+            <p>
+                O Tomorrowland é um grande festival de música eletrônica,
+                conhecido por seus palcos, iluminação, cenários e pela
+                experiência única proporcionada ao público.
+            </p>
+
+            <p>
+                O evento reúne pessoas de diferentes lugares para viver
+                momentos especiais ao som de grandes artistas e DJs.
+            </p>
+        </section>
+
+      <section class="pagina-conteudo contato-destaque">
+    <p class="label">FALE CONOSCO</p>
+    <h2>Contato do evento</h2>
+
+    <div class="form-page">
+        <form class="form-card" id="formulario">
+            <p class="intro">Tire suas dúvidas.</p>
+
+            <div class="form-grid">
+                <div class="field full">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" required>
+                </div>
+
+                <div class="field">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" required>
+                </div>
+
+                <div class="field full">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea id="mensagem" rows="4" required></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="main-button submit">Enviar mensagem</button>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<script>
+    document.getElementById("formulario").addEventListener("submit", function(event) {
+        event.preventDefault();
+        alert("Mensagem enviada com sucesso!");
+    });
+</script>
+
+</body>
+</html>
+
+<script>
+    document.getElementById("formulario").addEventListener("submit", function(event) {
+        event.preventDefault();
+        alert("Mensagem enviada com sucesso!");
+    });
+</script>
+
+        </section>
+
+    </main>
